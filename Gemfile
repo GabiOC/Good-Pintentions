@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 gem 'rails', '4.1.6'
 gem 'sqlite3', 		group: [:development, :test]
 gem 'sass-rails', '~> 4.0.3'
@@ -14,6 +13,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'pg',		group: :production
 gem 'rails_12factor', 	group: :production
+gem 'devise', '~> 3.4.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
