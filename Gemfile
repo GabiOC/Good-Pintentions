@@ -15,6 +15,7 @@ gem 'pg',		group: :production
 gem 'rails_12factor', 	group: :production
 gem 'devise', '~> 3.4.0'
 gem "paperclip", "~> 4.2"
+gem 'aws-sdk', '~> 1.20.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
