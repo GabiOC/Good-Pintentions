@@ -11,5 +11,7 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require 'masonry/transitions'
+ *= require 'masonry/infinitescroll'
  *= require_self
  */
